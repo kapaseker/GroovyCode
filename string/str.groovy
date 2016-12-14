@@ -32,3 +32,12 @@ def person = [name:"Qian\'s",age:23];
 print "$person.name has a age of $person.age \n";
 
 print "1 add 2 is ${1+2}.\n";
+
+def value = 23;
+def closerStr = "value = ${->value};\n";
+
+print closerStr;
+
+value = 45;
+
+print closerStr;
