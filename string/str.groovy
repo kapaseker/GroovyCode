@@ -41,3 +41,8 @@ print closerStr;
 value = 45;
 
 print closerStr;
+
+// single quote doesn't support exprection
+def singleQuote = 'this is ${value}';
+
+println singleQuote;
