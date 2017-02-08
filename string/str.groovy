@@ -46,3 +46,17 @@ print closerStr;
 def singleQuote = 'this is ${value}';
 
 println singleQuote;
+// this is plain java String
+def javaStr = "this java String";
+def grooyThing = "good";
+// this is a GString , because it has a interpolated expression
+def groovyStr = "this is grooy String ${grooyThing}";
+
+println javaStr;
+println groovyStr;
+
+println "javaStr is String ? ${javaStr instanceof String}";
+println "javaStr is GString ? ${javaStr instanceof GString}";
+
+println "groovyStr is String ? ${groovyStr instanceof String}";
+println "groovyStr is String ? ${groovyStr instanceof GString}";

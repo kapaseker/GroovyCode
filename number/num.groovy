@@ -16,3 +16,8 @@ println longVal instanceof Long;
 //Binary literal
 def binVal = 0b111;
 println binVal;
+
+int binInt = 0b00101;
+println binInt;
+
+println 1e3;
